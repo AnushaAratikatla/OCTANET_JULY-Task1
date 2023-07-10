@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Hackathon Landing Page</title>
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    section {
+      padding: 50px 0;
+      text-align: center;
+    }
+    .about {
+      background-color: #f2f2f2;
+    }
+    .steps {
+      background-color: #e6f2ff;
+    }
+    .speakers {
+      background-color: #f2e6ff;
+    }
+    .registration {
+      background-color: #e6ffe6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .section-content {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .step {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .step-image {
+      flex: 1;
+    }
+    .step-text {
+      flex: 2;
+      text-align: left;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>College Hackathon</h1>
+    <p>Unlock Your Innovative Potential</p>
+  </header>
+  
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <p class="section-content">The College Hackathon is a thrilling event that brings together students from various disciplines to collaborate, learn, and create innovative solutions. Join us for an exciting weekend filled with coding challenges, networking opportunities, and inspiring talks from industry experts.</p>
+    </div>
+  </section>
+  
+  <section class="steps">
+    <div class="container">
+      <h2 class="section-title">Steps to Participate</h2>
+      <div class="step">
+        <div class="step-image">
+          <img src="step1.png" alt="Step 1" width="100">
+        </div>
+        <div class="step-text">
+          <h3>Step 1: Register</h3>
+          <p>Create an account and register for the hackathon on our website. Limited spots available, so don't miss out!</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-image">
+          <img src="step2.png" alt="Step 2" width="100">
+        </div>
+        <div class="step-text">
+          <h3>Step 2: Form a Team</h3>
+          <p>Find like-minded individuals and form a team of 3-5 members. Collaboration is the key to success!</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-image">
+          <img src="step3.png" alt="Step 3" width="100">
+        </div>
+        <div class="step-text">
+          <h3>Step 3: Prepare</h3>
+          <p>Get ready for the hackathon by brushing up on your coding skills and exploring relevant technologies.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-image">
+          <img src="step4.png" alt="Step 4" width="100">
+        </div>
+        <div class="step-text">
+          <h3>Step 4: Hack Away</h3>
+          <p>During the hackathon, work together with your team to develop an innovative project within the given timeframe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="speakers">
+    <div class="container">
+      <h2 class="section-title">Speakers</h2>
+      <p class="section-content">We have an impressive lineup of industry experts and tech enthusiasts who will be sharing their knowledge and experiences. Stay tuned for the announcement of our speakers!</p>
+    </div>
+  </section>
+  
+  <section class="registration">
+    <div class="container">
+      <h2 class="section-title">Registration</h2>
+      <p class="section-content">Ready to embark on this exciting journey? Register now to secure your spot at the College Hackathon! Limited seats available.</p>
+      <button onclick="register()">Register Now</button>
+    </div>
+  </section>
+  
+  <script>
+    // JavaScript Function
+    function register() {
+      alert('Registration Successful! We look forward to seeing you at the hackathon.');
+    }
+  </script>
+</body>
+</html>
